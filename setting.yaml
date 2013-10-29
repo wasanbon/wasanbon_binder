@@ -4,3 +4,4 @@ url: http://sugarsweetrobotics.com
 repositories:
   darwin108: [common, darwin108]
   darwin107: [common, darwin108]
+  windows7_x64: [common, windows7_x64]
