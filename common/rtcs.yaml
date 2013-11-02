@@ -68,14 +68,6 @@ UrgRTC :
   type : git
   url : 'https://github.com/sugarsweetrobotics/UrgRTC.git'
 
-NAO_python :
-  description : 'NAO RT-component'
-  type : git
-  url : 'https://github.com/ogata-lab/NAO.git'
-NAO_test :
-  description : 'NAO Test Template'
-  type : git
-  url : 'https://github.com/ogata-lab/NAOTest.git'
 Roomba :
   description : 'Roomba RT-component'
   type : git
