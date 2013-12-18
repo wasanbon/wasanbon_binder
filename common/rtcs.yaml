@@ -27,6 +27,10 @@ TimedBooleanViewer :
   description : 'TimedBoolean viewer RT-component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/TimedBooleanViewer.git'
+TimedVelocity2DViewer :
+  description : 'TimedVelocity2D viewer RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TimedVelocity2DViewer.git'
 RTnoProxy :
   description : 'RTno can help to develop RTC available devices using arduino and mbed.'
   type : git
