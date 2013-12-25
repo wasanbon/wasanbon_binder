@@ -1,0 +1,89 @@
+# platform: 
+# - osx, osx10.8, osx10.9, osx10.9_xcode4
+# - ubuntu, ubuntu12.04, ubuntu12.04_x86
+# - win, win7, win7_x64
+# If specific version or architecture is not specified, all platform is allowed.
+RTnoProxy :
+  description : 'RTno can help to develop RTC available devices using arduino and mbed.'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/RTnoProxy.git'
+  platform : [osx, ubuntu, win]
+LEDTest:
+  description : 'LED light test for RTno'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/LEDTest.git'
+  platform : [osx, ubuntu, win]
+
+KeyInput :
+  description : 'kbhit RT-Componennt.'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/KeyInput_cpp.git'
+  platform : [osx, ubuntu, win]
+
+UrgRTC : 
+  description : 'Hokuyo URG (Laser Range Sensor) RTC'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/UrgRTC.git'
+  platform : [osx, ubuntu, win]
+
+Roomba :
+  description : 'Roomba RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/RoombaRTC.git'
+  platform : [osx, ubuntu, win]
+
+WiiRemote : 
+  description : 'WiiRemote RTC using WiiC library for Mac and Unix.'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/WiiRemote.git'
+  platform : [osx]
+WiiRemoteTest : 
+  description : 'WiiRemote RTC using WiiC library for Mac and Unix.'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/WiiRemoteTest.git'
+  platform : [osx]
+WiiRemoteToVelocity : 
+  description : 'WiiRemote RTC using WiiC library for Mac and Unix.'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/WiiRemoteToVelocity.git'
+  platform : [osx]
+
+OpenCVCameraCapture :
+  description : 'OpenCV Camera Capture Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/OpenCVCameraCapture.git'
+  platform : [osx]
+
+LeapMotion :
+  description : 'LeapMotion RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/LeapRTC.git'
+  platform : [osx]
+LeapMotionTest :
+  description : 'LeapMotion Test RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/LeapTest_py.git'
+  platform : [osx]
+
+DirectInput : 
+  description : 'Direct input for Joystick and Gamepad.'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/DirectInputRTC.git'
+  platform : [win]
+
+Kinect :
+  description : 'Kinect RT-Component'
+  url : 'https://github.com/sugarsweetrobotics/Kinect4Win.git'
+  type : git
+  platform : [win]
+KinectToRanger : 
+  description : 'Kinect Data To Range Sensor.'
+  type : git
+  url : 'https://github.com/ysuga/KinectToRanger.git'
+  platform : [win]
+
+SpaceNavigator :
+  description : '3DConnexion s 3-D mouse RT-component'
+  url : 'https://github.com/sugarsweetrobotics/SpaceNavigatorRTC.git'
+  type : git
+  platform : [win]

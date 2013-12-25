@@ -1,0 +1,40 @@
+# platform: 
+# - osx, osx10.8, osx10.9, osx10.9_xcode4
+# - ubuntu, ubuntu12.04, ubuntu12.04_x86
+# - win, win7, win7_x64
+# If specific version or architecture is not specified, all platform is allowed.
+DoubleSeqViewer :
+  description : 'Double Sequence Data Viewer RT-component.'
+  type : hg
+  url : 'https://ysuga0731@code.google.com/p/doubleseqviewer/'
+  platform : [osx, ubuntu, win]
+StringViewer :
+  description : 'String Value Viewer RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/StringViewer.git'
+  platform : [osx, ubuntu, win]
+TimedLongSeqViewer :
+  description : 'TimedLongSeq viewer RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TimedLongSeqViewer.git'
+  platform : [osx, ubuntu, win]
+TimedBooleanViewer :
+  description : 'TimedBoolean viewer RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TimedBooleanViewer.git'
+  platform : [osx, ubuntu, win]
+TimedVelocity2DViewer :
+  description : 'TimedVelocity2D viewer RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TimedVelocity2DViewer.git'
+  platform : [osx, ubuntu, win]
+RangeDataViewer : 
+  description : 'Range Data Viewer'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/RangeDataViewer.git'
+  platform : [osx, ubuntu, win]
+CameraViewer_java: 
+  description : 'CameraImage Viewer (Java version)'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/JCameraViewer.git'
+  platform : [osx, ubuntu, win]
