@@ -23,3 +23,8 @@ roomba_test:
   type : git
   url : 'https://github.com/sugarsweetrobotics/roomba_test.git'
   platform : [osx, ubuntu, win]
+wii_test:
+  description : 'Wii Remote Test System'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/wii_test.git'
+  platform : [osx]
