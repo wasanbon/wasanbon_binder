@@ -49,10 +49,16 @@ WiiRemoteToVelocity :
   platform : [osx]
 
 OpenCVCameraCapture :
-  description : 'OpenCV Camera Capture Component'
+  description : 'OpenCV Camera Capture Component for RTC::CameraImage type'
   type : git
   url : 'https://github.com/sugarsweetrobotics/OpenCVCameraCapture.git'
-  platform : [osx]
+  platform : [osx, win, linux]
+
+WebCamera : 
+  description : 'OpenCV Camera Capture Component for Common Interface'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/WebCamera.git'
+  platform : [osx, win, linux]
 
 LeapMotion :
   description : 'LeapMotion RT-component'

@@ -33,8 +33,14 @@ RangeDataViewer :
   type : git
   url : 'https://github.com/sugarsweetrobotics/RangeDataViewer.git'
   platform : [osx, ubuntu, win]
+
 CameraViewer_java: 
   description : 'CameraImage Viewer (Java version)'
   type : git
   url : 'https://github.com/sugarsweetrobotics/JCameraViewer.git'
+  platform : [osx, ubuntu, win]
+ImageViewer:
+  description : 'CameraImage Viewer (Java version) with Common Interface'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/ImageViewer.git'
   platform : [osx, ubuntu, win]
