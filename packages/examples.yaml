@@ -30,9 +30,9 @@ wii_test:
   platform : [osx]
 # Added in 2014/3/18/13:7:28
 opencv_test : 
-  description : ''
+  description : 'OpenInterface Image Processing RTC with Common Interface'
   type : git
-  url : 'git@github.com:ysuga/opencv_test.git'
+  url : 'https://github.com/sugarsweetrobotics/opencv_test.git'
   platform : osx10.9_xcode5
 # Added in 2014/3/10/23:28:37
 tutorial03 : 
