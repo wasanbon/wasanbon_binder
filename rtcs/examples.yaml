@@ -29,3 +29,7 @@ MobileRobotController :
   type : git
   url : 'https://github.com/sugarsweetrobotics/MobileRobotController.git'
 
+ImageFlip :
+  description : 'Image Flip Component with Common Interface'
+  type : git
+  url : 'https://github.com/sugarswetrobotics/ImageFlip.git'
