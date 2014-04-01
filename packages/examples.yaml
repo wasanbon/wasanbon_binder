@@ -33,10 +33,16 @@ opencv_test :
   description : 'OpenInterface Image Processing RTC with Common Interface'
   type : git
   url : 'https://github.com/sugarsweetrobotics/opencv_test.git'
-  platform : osx10.9_xcode5
+  platform : [osx, linux]
 # Added in 2014/3/10/23:28:37
 tutorial03 : 
-  description : ''
+  description : 'Tutorial No. 3'
   type : git
   url : 'https://bitbucket.org/sugarsweetrobotics/tutorial03.git'
-  platform : osx10.9_xcode5
+  platform : [osx, win, linux]
+# Added in 2014/4/1/13:46:24
+leap_test : 
+  description : 'Example of Leap Motion RT System'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/leap_test.git'
+  platform : osx
