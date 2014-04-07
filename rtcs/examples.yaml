@@ -33,3 +33,24 @@ ImageFlip :
   description : 'Image Flip Component with Common Interface'
   type : git
   url : 'https://github.com/sugarswetrobotics/ImageFlip.git'
+
+# Added in 2014/4/1/15:41:57
+ImageFaceDetection : 
+  description : 'Face Detection OpenCV Image Processing Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/ImageFaceDetection.git'
+  platform : osx10.9_xcode5
+
+# Added in 2014/4/4/10:15:14
+EnpraRobo : 
+  description : 'Robot'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/EnpraRobo.git'
+  platform : osx10.9_xcode5
+
+# Added in 2014/4/7/10:18:53
+ImageHough : 
+  description : 'ImageHoughLines'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/ImageHough.git'
+  platform : osx10.9_xcode5
