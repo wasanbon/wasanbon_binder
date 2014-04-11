@@ -32,7 +32,7 @@ MobileRobotController :
 ImageFlip :
   description : 'Image Flip Component with Common Interface'
   type : git
-  url : 'https://github.com/sugarswetrobotics/ImageFlip.git'
+  url : 'https://github.com/sugarsweetrobotics/ImageFlip.git'
 
 # Added in 2014/4/1/15:41:57
 ImageFaceDetection : 
