@@ -48,8 +48,14 @@ leap_test :
   platform : osx
 
 # Added in 2014/5/23/14:10:59
-nao_test : 'Aldebaran Robotics NAO RTC Test Components'
-  description : ''
+nao_test : 
+  description : 'Aldebaran Robotics NAO RTC Test Components'
   type : git
   url : 'https://github.com/sugarsweetrobotics/nao_test.git'
-  platform : osx10.9_xcode5
+  platform : [osx, linux]
+
+wsb_test_py_project : 
+  description : 'Test Project for Python'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/wsb_test_py_project'
+  platform : [osx, win, linux]

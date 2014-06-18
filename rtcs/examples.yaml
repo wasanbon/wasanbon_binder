@@ -54,3 +54,23 @@ ImageHough :
   type : git
   url : 'https://github.com/sugarsweetrobotics/ImageHough.git'
   platform : osx10.9_xcode5
+
+# Added in 2014/5/25/11:43:41
+TestIn : 
+  description : 'Default Description'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TestIn.git'
+  platform : osx10.9_xcode5
+
+# Added in 2014/5/25/11:44:3
+TestOut : 
+  description : 'Default Description'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TestOut.git'
+  platform : osx10.9_xcode5
+
+DoubleSeqLogger :
+  description : 'DoubleSeq datatype logger7
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/DoubleSeqLogger.git'
+  platform : [osx, win, ubuntu]
