@@ -59,3 +59,9 @@ wsb_test_py_project :
   type : git
   url : 'https://github.com/sugarsweetrobotics/wsb_test_py_project'
   platform : [osx, win, linux]
+# Added in 2014/6/21/13:19:38
+spur_test : 
+  description : ''
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/spur_test.git'
+  platform : osx10.9_xcode5

@@ -93,3 +93,10 @@ SpaceNavigator :
   url : 'https://github.com/sugarsweetrobotics/SpaceNavigatorRTC.git'
   type : git
   platform : [win]
+
+# Added in 2014/6/21/10:20:46
+SpurRTC : 
+  description : 'Spur RT-Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/SpurRTC.git'
+  platform : osx10.9_xcode5

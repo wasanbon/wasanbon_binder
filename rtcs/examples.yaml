@@ -70,7 +70,8 @@ TestOut :
   platform : osx10.9_xcode5
 
 DoubleSeqLogger :
-  description : 'DoubleSeq datatype logger7
+  description : 'DoubleSeq datatype logger'
   type : git
   url : 'https://github.com/sugarsweetrobotics/DoubleSeqLogger.git'
   platform : [osx, win, ubuntu]
+
