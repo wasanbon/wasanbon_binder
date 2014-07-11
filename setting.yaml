@@ -9,5 +9,5 @@ repositories:
   windows8_x64: [common, windows7_x64]
   ubuntu1204_x64: [common, ubuntu1204_x64]
   ubuntu1204_x86: [common, ubuntu1204_x64]
-child_repositories:
+child_binder:
   - https://github.com/ogata-lab/wasanbon_repositories.git
