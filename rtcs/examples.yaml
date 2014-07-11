@@ -56,17 +56,17 @@ ImageHough :
   platform : osx10.9_xcode5
 
 # Added in 2014/5/25/11:43:41
-TestIn : 
+TestIn_py : 
   description : 'Default Description'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/TestIn.git'
+  url : 'https://github.com/sugarsweetrobotics/TestIn_py.git'
   platform : osx10.9_xcode5
 
 # Added in 2014/5/25/11:44:3
-TestOut : 
+TestOut_py : 
   description : 'Default Description'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/TestOut.git'
+  url : 'https://github.com/sugarsweetrobotics/TestOut_py.git'
   platform : osx10.9_xcode5
 
 DoubleSeqLogger :
@@ -75,3 +75,16 @@ DoubleSeqLogger :
   url : 'https://github.com/sugarsweetrobotics/DoubleSeqLogger.git'
   platform : [osx, win, ubuntu]
 
+# Added in 2014/7/11/18:59:45
+TestOut : 
+  description : 'TestOut Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TestOut.git'
+  platform : osx10.9_xcode5
+
+# Added in 2014/7/11/19:4:11
+TestIn : 
+  description : 'TestIn Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TestIn.git'
+  platform : osx10.9_xcode5

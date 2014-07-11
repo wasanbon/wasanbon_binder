@@ -64,4 +64,11 @@ spur_test :
   description : ''
   type : git
   url : 'https://github.com/sugarsweetrobotics/spur_test.git'
-  platform : osx10.9_xcode5
+  platform : [osx, linux, win]
+
+# Added in 2014/7/11/19:9:8
+test_project01 : 
+  description : 'Test Project for C++'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/test_project01.git'
+  platform : [osx, win, linux]
