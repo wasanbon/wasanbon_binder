@@ -76,15 +76,29 @@ DoubleSeqLogger :
   platform : [osx, win, ubuntu]
 
 # Added in 2014/7/11/18:59:45
-TestOut : 
+TestOut_cpp : 
   description : 'TestOut Component'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/TestOut.git'
-  platform : osx10.9_xcode5
+  url : 'https://github.com/sugarsweetrobotics/TestOut_cpp.git'
+  platform : [osx, win, ubuntu]
 
 # Added in 2014/7/11/19:4:11
-TestIn : 
+TestIn_cpp : 
   description : 'TestIn Component'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/TestIn.git'
+  url : 'https://github.com/sugarsweetrobotics/TestIn_cpp.git'
+  platform : [osx, win, ubuntu]
+
+# Added in 2014/7/14/13:19:16
+TestIn_java : 
+  description : 'Test In Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TestIn_java.git'
+  platform : osx10.9_xcode5
+
+# Added in 2014/7/14/13:19:36
+TestOut_java : 
+  description : 'ModuleDescription'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/TestOut_java.git'
   platform : osx10.9_xcode5
