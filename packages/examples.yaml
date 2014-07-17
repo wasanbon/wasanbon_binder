@@ -81,3 +81,10 @@ test_project03 :
   type : git
   url : 'https://github.com/sugarsweetrobotics/test_project03.git'
   platform : osx10.9_xcode5
+
+# Added in 2014/7/17/11:43:10
+ardrone_test : 
+  description : ''
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/ardrone_test.git'
+  platform : osx10.9_xcode5
