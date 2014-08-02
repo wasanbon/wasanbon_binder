@@ -88,3 +88,10 @@ ardrone_test :
   type : git
   url : 'https://github.com/sugarsweetrobotics/ardrone_test.git'
   platform : osx10.9_xcode5
+
+# Added in 2014/8/2/22:57:59
+vrep_test : 
+  description : ''
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/vrep_test.git'
+  platform : windows7_x64
