@@ -102,3 +102,9 @@ TestOut_java :
   type : git
   url : 'https://github.com/sugarsweetrobotics/TestOut_java.git'
   platform : osx10.9_xcode5
+
+Mapper_MRPT :
+  description : 'MRPT Mapper RT Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/Mapper_MRPT.git'
+  platform : win
