@@ -108,3 +108,10 @@ Mapper_MRPT :
   type : git
   url : 'https://github.com/sugarsweetrobotics/Mapper_MRPT.git'
   platform : win
+
+# Added in 2014/8/12/11:45:7
+MapServer : 
+  description : 'MapServer RTC '
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/MapServer.git'
+  platform : windows7_x64
