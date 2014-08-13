@@ -95,3 +95,10 @@ vrep_test :
   type : git
   url : 'https://github.com/sugarsweetrobotics/vrep_test.git'
   platform : windows7_x64
+
+# Added in 2014/8/13/11:17:41
+vrep_mrpt_mapper_test : 
+  description : ''
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/vrep_mrpt_mapper_test.git'
+  platform : windows7_x64
