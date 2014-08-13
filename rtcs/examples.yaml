@@ -94,14 +94,14 @@ TestIn_java :
   description : 'Test In Component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/TestIn_java.git'
-  platform : osx10.9_xcode5
+  platform : [osx, win, ubuntu]
 
 # Added in 2014/7/14/13:19:36
 TestOut_java : 
   description : 'ModuleDescription'
   type : git
   url : 'https://github.com/sugarsweetrobotics/TestOut_java.git'
-  platform : osx10.9_xcode5
+  platform : [osx, win, ubuntu]
 
 Mapper_MRPT :
   description : 'MRPT Mapper RT Component'
@@ -114,4 +114,11 @@ MapServer :
   description : 'MapServer RTC '
   type : git
   url : 'https://github.com/sugarsweetrobotics/MapServer.git'
-  platform : windows7_x64
+  platform : [win, osx, ubuntu]
+
+#Added in 2014/8/13/10:06:7
+MobileRobotKinematics :
+  description : 'Mobile Robot Kinematics. (2WD)'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/MobileRobotKinematics.git'
+  platform : [win, osx, ubuntu]
