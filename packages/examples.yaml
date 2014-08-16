@@ -107,5 +107,5 @@ vrep_mrpt_mapper_test :
 vrep_gmapping_mapper_test : 
   description : ''
   type : git
-  url : 'https://github.com/ysuga/vrep_gmapping_mapper_test.git'
+  url : 'https://github.com/sugarsweetrobotics/vrep_gmapping_mapper_test.git'
   platform : [osx, ubuntu, win]
