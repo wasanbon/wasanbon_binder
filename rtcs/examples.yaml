@@ -122,3 +122,9 @@ MobileRobotKinematics :
   type : git
   url : 'https://github.com/sugarsweetrobotics/MobileRobotKinematics.git'
   platform : [win, osx, ubuntu]
+# Added in 2014/8/16/10:51:38
+Mapper_gmapping : 
+  description : 'Mapper RTC using gmapping'
+  type : git
+  url : 'https://github.com/ysuga/Mapper_gmapping.git'
+  platform : osx10.9_xcode5
