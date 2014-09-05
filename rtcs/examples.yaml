@@ -107,7 +107,7 @@ Mapper_MRPT :
   description : 'MRPT Mapper RT Component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/Mapper_MRPT.git'
-  platform : win
+  platform : [win, ubuntu]
 
 # Added in 2014/8/12/11:45:7
 MapServer : 
@@ -122,9 +122,24 @@ MobileRobotKinematics :
   type : git
   url : 'https://github.com/sugarsweetrobotics/MobileRobotKinematics.git'
   platform : [win, osx, ubuntu]
+
 # Added in 2014/8/16/10:51:38
 Mapper_gmapping : 
   description : 'Mapper RTC using gmapping'
   type : git
   url : 'https://github.com/ysuga/Mapper_gmapping.git'
-  platform : osx10.9_xcode5
+  platform : [osx, win, ubuntu]
+
+# Added in 2014/9/5/13:2:45
+Localization_MRPT : 
+  description : 'Localization MRPT Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/Localization_MRPT.git'
+  platform : [win, ubuntu]
+
+# Added in 2014/9/5/13:3:57
+PathPlanner_MRPT : 
+  description : 'Path Planner MRPT component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/PathPlanner_MRPT.git'
+  platform : [win, ubuntu]
