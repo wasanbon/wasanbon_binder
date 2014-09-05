@@ -110,3 +110,10 @@ vrep_gmapping_mapper_test :
   type : git
   url : 'https://github.com/sugarsweetrobotics/vrep_gmapping_mapper_test.git'
   platform : windows7_x64
+
+# Added in 2014/9/5/13:7:20
+vrep_mrpt_localization_test : 
+  description : ''
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/vrep_mrpt_localization_test.git'
+  platform : [win, ubuntu]
