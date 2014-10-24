@@ -70,35 +70,35 @@ test_project01 :
 
 # Added in 2014/7/11/22:11:20
 test_project02 : 
-  description : ''
+  description : 'Test Project for Python'
   type : git
   url : 'https://github.com/sugarsweetrobotics/test_project02.git'
   platform : [osx, win, ubuntu]
 
 # Added in 2014/7/14/14:3:8
 test_project03 : 
-  description : ''
+  description : 'Test Project for Java'
   type : git
   url : 'https://github.com/sugarsweetrobotics/test_project03.git'
   platform : [osx, ubuntu, win]
 
 # Added in 2014/7/17/11:43:10
 ardrone_test : 
-  description : ''
+  description : 'Test Project for AR Drone'
   type : git
   url : 'https://github.com/sugarsweetrobotics/ardrone_test.git'
   platform : [osx, win, ubuntu]
 
 # Added in 2014/8/2/22:57:59
 vrep_test : 
-  description : ''
+  description : 'Test Project for V-REP Simulator'
   type : git
   url : 'https://github.com/sugarsweetrobotics/vrep_test.git'
   platform : [win, ubuntu, osx]
 
 # Added in 2014/8/13/11:17:41
 vrep_mrpt_mapper_test : 
-  description : ''
+  description : 'Test Project for MRPT (Mobile Robot Programming Toolkit) with V-REP simulator'
   type : git
   url : 'https://github.com/sugarsweetrobotics/vrep_mrpt_mapper_test.git'
   platform : win
@@ -106,14 +106,14 @@ vrep_mrpt_mapper_test :
 
 # Added in 2014/8/16/22:19:45
 vrep_gmapping_mapper_test : 
-  description : ''
+  description : 'Test Project for gmapping with V-REP simulator'
   type : git
   url : 'https://github.com/sugarsweetrobotics/vrep_gmapping_mapper_test.git'
   platform : windows7_x64
 
 # Added in 2014/9/5/13:7:20
 vrep_mrpt_localization_test : 
-  description : ''
+  description : 'Test Project for MRPT (Mobile Robot Programming Toolkit) with V-REP simulator'
   type : git
   url : 'https://github.com/sugarsweetrobotics/vrep_mrpt_localization_test.git'
   platform : [win, ubuntu]
