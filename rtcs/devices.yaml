@@ -99,7 +99,7 @@ SpurRTC :
   description : 'Spur RT-Component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/SpurRTC.git'
-  platform : osx10.9_xcode5
+  platform : [osx, win, linux]
 
 
 # Added in 2014/7/17/11:0:16
@@ -107,11 +107,17 @@ ARDrone :
   description : 'ARDrone RT Component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/ARDrone.git'
-  platform : osx10.9_xcode5
+  platform : [osx, win]
 
 # Added in 2014/7/17/22:16:57
 ARDroneTest : 
   description : 'ARDrone Test RTC'
   type : git
   url : 'https://github.com/sugarsweetrobotics/ARDroneTest.git'
-  platform : osx10.9_xcode5
+  platform : [osx, win]
+
+EKFRTC : 
+  description : 'Extended Kalman Filte RT-Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/EKFRTC.git'
+  platform : [win, osx]

@@ -143,3 +143,10 @@ PathPlanner_MRPT :
   type : git
   url : 'https://github.com/sugarsweetrobotics/PathPlanner_MRPT.git'
   platform : [win, ubuntu]
+
+# Added in 2014/12/14/15:21:41
+SimplePathFollower : 
+  description : 'Simple Algorithm Path Follower'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/SimplePathFollower.git'
+  platform : windows7_x64
