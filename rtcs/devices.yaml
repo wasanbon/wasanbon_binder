@@ -115,3 +115,10 @@ ARDroneTest :
   type : git
   url : 'https://github.com/sugarsweetrobotics/ARDroneTest.git'
   platform : osx10.9_xcode5
+
+# Added in 2015/1/13/12:48:22
+SFMLJoystick : 
+  description : 'Joystick Component using SFML Library'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/SFMLJoystick.git'
+  platform : [win, osx, ubuntu]
