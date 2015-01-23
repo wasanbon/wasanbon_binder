@@ -121,3 +121,10 @@ EKFRTC :
   type : git
   url : 'https://github.com/sugarsweetrobotics/EKFRTC.git'
   platform : [win, osx]
+
+# Added in 2015/1/13/12:48:22
+SFMLJoystick : 
+  description : 'Joystick Component using SFML Library'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/SFMLJoystick.git'
+  platform : [win, osx, ubuntu]

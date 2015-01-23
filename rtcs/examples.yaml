@@ -2,37 +2,49 @@ ConsoleOutput :
   description : 'Console Output RT-component with Long type DataInPort.'
   type : git
   url : 'https://github.com/sugarsweetrobotics/ConsoleOutput_cpp.git'
+  platform : ['win', 'osx', 'ubuntu']
+
 ConsoleInput :
   description : 'Console Input RT-component with Long type DataOutPort'
   type : git
   url : 'https://github.com/sugarsweetrobotics/ConsoleInput_cpp.git'
+  platform : ['win', 'osx', 'ubuntu']
+
 Multiplyer :
   description : 'Long Value Mutiplyer : Example for RT-component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/Multiplyer_cpp.git'
+  platform : ['win', 'osx', 'ubuntu']
 
 VirtualJoystick : 
   description : 'Virtual Joypad RT-Component with cross-button GUI'
   type : git
   url : 'https://github.com/sugarsweetrobotics/VirtualJoystick.git'
+  platform : ['win', 'osx', 'ubuntu']
+
 JoystickToVelocity :
   description : 'Joystick input data to velocity. available with DirectInput RTC.'
   type : git
   url :  'https://github.com/sugarsweetrobotics/JoystickToVelocity.git'
+  platform : ['win', 'osx', 'ubuntu']
 
 MobileRobotSim : 
   description : 'Mobile Robot Simulator with TimedVelocity2D input.'
   type : git
   url : 'https://github.com/sugarsweetrobotics/MobileRobotSim.git'
+  platform : ['win', 'osx', 'ubuntu']
+
 MobileRobotController : 
   description : 'Mobile Robot Controller available with VirtulaJoystick. TimedVelocity2D output.'
   type : git
   url : 'https://github.com/sugarsweetrobotics/MobileRobotController.git'
+  platform : ['win', 'osx', 'ubuntu']
 
 ImageFlip :
   description : 'Image Flip Component with Common Interface'
   type : git
   url : 'https://github.com/sugarsweetrobotics/ImageFlip.git'
+  platform : ['win', 'osx']
 
 # Added in 2014/4/1/15:41:57
 ImageFaceDetection : 
