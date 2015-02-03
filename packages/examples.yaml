@@ -117,3 +117,10 @@ vrep_mrpt_localization_test :
   type : git
   url : 'https://github.com/sugarsweetrobotics/vrep_mrpt_localization_test.git'
   platform : [win, ubuntu]
+
+# Added in 2015/2/3/14:21:37
+nao_joy_control : 
+  description : ''
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/nao_joy_control.git'
+  platform : osx10.10_xcode6
