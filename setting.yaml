@@ -10,5 +10,5 @@ repositories:
   ubuntu1204_x64: [common, ubuntu1204_x64]
   ubuntu1204_x86: [common, ubuntu1204_x64]
 child_binder:
-  - https://github.com/ogata-lab/wasanbon_repositories.git
+  - https://github.com/ogata-lab/wasanbon_binder.git
   - https://github.com/ysuga/wasanbon_binder.git
