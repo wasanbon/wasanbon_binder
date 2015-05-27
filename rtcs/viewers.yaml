@@ -46,8 +46,8 @@ ImageViewer:
   platform : [osx, ubuntu, win]
 
 # Added in 2014/8/4/14:49:34
-MapperViewer : 
-  description : 'Mapper Viewer RTC'
+NavigationManager : 
+  description : 'Navigation Manager RTC'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/MapperViewer.git'
+  url : 'https://github.com/sugarsweetrobotics/NavigationManager.git'
   platform : windows7_x64
