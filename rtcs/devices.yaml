@@ -37,11 +37,13 @@ WiiRemote :
   type : git
   url : 'https://github.com/sugarsweetrobotics/WiiRemote.git'
   platform : [osx]
+
 WiiRemoteTest : 
   description : 'WiiRemote RTC using WiiC library for Mac and Unix.'
   type : git
   url : 'https://github.com/sugarsweetrobotics/WiiRemoteTest.git'
   platform : [osx]
+
 WiiRemoteToVelocity : 
   description : 'WiiRemote RTC using WiiC library for Mac and Unix.'
   type : git
@@ -52,24 +54,25 @@ OpenCVCameraCapture :
   description : 'OpenCV Camera Capture Component for RTC::CameraImage type'
   type : git
   url : 'https://github.com/sugarsweetrobotics/OpenCVCameraCapture.git'
-  platform : [osx, win, linux]
+  platform : [osx, win, ubuntu]
 
 WebCamera : 
   description : 'OpenCV Camera Capture Component for Common Interface'
   type : git
   url : 'https://github.com/sugarsweetrobotics/WebCamera.git'
-  platform : [osx, win, linux]
+  platform : [osx, win, ubuntu]
 
 LeapMotion :
   description : 'LeapMotion RT-component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/LeapRTC.git'
-  platform : [osx]
+  platform : [osx, win, ubuntu]
+
 LeapMotionTest :
   description : 'LeapMotion Test RT-component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/LeapTest_py.git'
-  platform : [osx]
+  platform : [osx, win, ubuntu]
 
 DirectInput : 
   description : 'Direct input for Joystick and Gamepad.'
@@ -82,6 +85,7 @@ Kinect :
   url : 'https://github.com/sugarsweetrobotics/Kinect4Win.git'
   type : git
   platform : [win]
+
 KinectToRanger : 
   description : 'Kinect Data To Range Sensor.'
   type : git
@@ -99,7 +103,7 @@ SpurRTC :
   description : 'Spur RT-Component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/SpurRTC.git'
-  platform : [osx, win, linux]
+  platform : [osx, win, ubuntu]
 
 
 # Added in 2014/7/17/11:0:16
@@ -128,3 +132,9 @@ SFMLJoystick :
   type : git
   url : 'https://github.com/sugarsweetrobotics/SFMLJoystick.git'
   platform : [win, osx, ubuntu]
+
+AriaRTC :
+  description : 'MobileRobot Inc. Mobile Robot Controller'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/AriaRTC.git'
+  platform : [win, ubuntu]
