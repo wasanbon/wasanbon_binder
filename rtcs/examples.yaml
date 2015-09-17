@@ -169,3 +169,10 @@ SFMLJoystickToVelocity :
   type : git
   url : 'https://github.com/sugarsweetrobotics/SFMLJoystickToVelocity.git'
   platform : [win, ubuntu, osx]
+
+# Added in 2015/9/17/12:31:17
+SFMLJoystickTest 
+  description : 'Joystick data Test'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/SFMLJoystickTest.git'
+  platform : [win, ubuntu, osx]

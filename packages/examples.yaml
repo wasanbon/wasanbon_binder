@@ -123,4 +123,10 @@ nao_joy_control :
   description : ''
   type : git
   url : 'https://github.com/sugarsweetrobotics/nao_joy_control.git'
-  platform : osx10.10_xcode6
+  platform : [win, osx, ubuntu]
+
+sfml_test :
+  description : ''
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/sfml_test.git'
+  platform : [win, osx, ubuntu]
