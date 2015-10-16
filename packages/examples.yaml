@@ -134,4 +134,16 @@ camera_calibration :
   description : ""
   type : git
   url : 'https://github.com/sugarsweetrobotics/camera_calibration.git'
-  platform : [osx10.10_xcode6]
+  platform : [osx, win, ubuntu]
+
+artk_test :
+  description : ""
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/artk_test.git'
+  platform : [osx, win, ubuntu]
+
+stargazer_test :
+  description : ""
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/stargazer_test.git'
+  platform : [osx, win, ubuntu]

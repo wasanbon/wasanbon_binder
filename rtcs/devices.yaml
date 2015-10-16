@@ -144,16 +144,16 @@ StarGazer :
   description : "Hagisonic's StarGazer sensor RT-Component. This uses ceiling marker and Infrared Camera. This can acquire, marker's ID, position of camera referring the marker."
   type : git
   url : 'https://github.com/sugarsweetrobotics/StarGazer.git'
-  platform : [osx10.10_xcode6]
+  platform : [osx, win,ubuntu]
 
 StarGazerMarkerToPose2D :
   description : ''
   type : git
   url : 'https://github.com/sugarsweetrobotics/StarGazerMarkerToPose2D.git'
-  platform : [osx10.10_xcode6]
+  platform : [osx,win,ubuntu]
 
 StarGazerTest :
   description : ''
   type : git
   url : 'https://github.com/sugarsweetrobotics/StarGazerTest.git'
-  platform : [osx10.10_xcode6]
+  platform : [osx,win,ubuntu]

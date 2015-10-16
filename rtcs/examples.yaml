@@ -161,7 +161,7 @@ SimplePathFollower :
   description : 'Simple Algorithm Path Follower'
   type : git
   url : 'https://github.com/sugarsweetrobotics/SimplePathFollower.git'
-  platform : windows7_x64
+  platform : [win, ubuntu, osx]
 
 # Added in 2015/2/2/14:5:47
 SFMLJoystickToVelocity : 
@@ -188,4 +188,4 @@ CameraCalibration :
   description : ''
   type : git
   url : 'https://github.com/sugarsweetrobotics/CameraCalibration'
-  platform : [osx10.10_xcode6]
+  platform : [osx,win,ubuntu]
