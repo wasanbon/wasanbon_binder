@@ -139,3 +139,21 @@ AriaRTC :
   url : 'https://github.com/sugarsweetrobotics/AriaRTC.git'
   platform : [win, ubuntu]
 
+
+StarGazer :
+  description : "Hagisonic's StarGazer sensor RT-Component. This uses ceiling marker and Infrared Camera. This can acquire, marker's ID, position of camera referring the marker."
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/StarGazer.git'
+  platform : [osx10.10_xcode6]
+
+StarGazerMarkerToPose2D :
+  description : ''
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/StarGazerMarkerToPose2D.git'
+  platform : [osx10.10_xcode6]
+
+StarGazerTest :
+  description : ''
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/StarGazerTest.git'
+  platform : [osx10.10_xcode6]
