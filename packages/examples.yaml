@@ -130,3 +130,8 @@ sfml_test :
   type : git
   url : 'https://github.com/sugarsweetrobotics/sfml_test.git'
   platform : [win, osx, ubuntu]
+camera_calibration :
+  description : ""
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/camera_calibration.git'
+  platform : [osx10.10_xcode6]
