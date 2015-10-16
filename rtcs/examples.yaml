@@ -176,3 +176,9 @@ SFMLJoystickTest :
   type : git
   url : 'https://github.com/sugarsweetrobotics/SFMLJoystickTest.git'
   platform : [win, ubuntu, osx]
+
+ARTKMarker :
+  description : 'AR Tool Kit Marker Detector RT-component. This uses ARToolkit5.'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/ARTKMarker.git'
+  platform : [win, ubuntu, osx]
