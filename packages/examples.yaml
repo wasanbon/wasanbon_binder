@@ -147,3 +147,9 @@ stargazer_test :
   type : git
   url : 'https://github.com/sugarsweetrobotics/stargazer_test.git'
   platform : [osx, win, ubuntu]
+
+vrep_mcl_test :
+  description : ""
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/vrep_mcl_test'
+  platform : [osx10.10_xcode6]
