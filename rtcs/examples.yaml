@@ -189,3 +189,9 @@ CameraCalibration :
   type : git
   url : 'https://github.com/sugarsweetrobotics/CameraCalibration'
   platform : [osx,win,ubuntu]
+
+Localization_YMCL : 
+  description : 'Monte Carlo Localization for Mobile Robot in 2D plane'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/Localization_YMCL'
+  platform : [osx, win, ubuntu]
