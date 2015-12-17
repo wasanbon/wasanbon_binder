@@ -82,7 +82,7 @@ DirectInput :
 
 Kinect :
   description : 'Kinect RT-Component'
-  url : 'https://github.com/sugarsweetrobotics/Kinect4Win.git'
+  url : 'https://github.com/sugarsweetrobotics/Kinect.git'
   type : git
   platform : [win]
 
