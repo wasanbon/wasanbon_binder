@@ -159,3 +159,9 @@ kinect_test:
   type : git
   url : 'https://github.com/sugarsweetrobotics/kinect_test'
   platform : [win]
+
+asr_test:
+  description : "VSTONE Academic Scala Robot Test project"
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/asr_test'
+  platform : [win]
