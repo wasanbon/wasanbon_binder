@@ -208,10 +208,10 @@ NAOKinematics :
   url : 'https://github.com/sugarsweetrobotics/NAOKinematics'
   platform : [osx, win, ubuntu]
 
-ManipulatorCommonInterfaceTest:
+ManipulatorCommonTest:
   description : 'Manipulator Common Interface Test Component'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/ManipulatorCommonInterfaceTest'
+  url : 'https://github.com/sugarsweetrobotics/ManipulatorCommonTest'
   platform : [osx, win, ubuntu]
 
 EndEffectorVelocityController:
