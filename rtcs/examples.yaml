@@ -195,3 +195,27 @@ Localization_YMCL :
   type : git
   url : 'https://github.com/sugarsweetrobotics/Localization_YMCL'
   platform : [osx, win, ubuntu]
+
+PepperKinematics : 
+  description : 'Kinematics Solver for Pepper. This provides ManipulatorComminInterface'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/PepperKinematics'
+  platform : [osx, win, ubuntu]
+
+NAOKinematics : 
+  description : 'Kinematics Solver for NAO. This provides ManipulatorComminInterface'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/NAOKinematics'
+  platform : [osx, win, ubuntu]
+
+ManipulatorCommonInterfaceTest:
+  description : 'Manipulator Common Interface Test Component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/ManipulatorCommonInterfaceTest'
+  platform : [osx, win, ubuntu]
+
+EndEffectorVelocityController:
+  description : 'EndEffector Speed Controller which uses Manipulator Common Interface.'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/EndEffectorVelocityController'
+  platform : [osx, win, ubuntu]
