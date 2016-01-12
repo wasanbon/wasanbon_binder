@@ -82,7 +82,7 @@ DirectInput :
 
 Kinect :
   description : 'Kinect RT-Component'
-  url : 'https://github.com/sugarsweetrobotics/Kinect4Win.git'
+  url : 'https://github.com/sugarsweetrobotics/Kinect.git'
   type : git
   platform : [win]
 
@@ -157,3 +157,15 @@ StarGazerTest :
   type : git
   url : 'https://github.com/sugarsweetrobotics/StarGazerTest.git'
   platform : [osx,win,ubuntu]
+
+VS_ASR_RTC :
+  description : 'VSTONE Academic Scala Robot Arm RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/VS_ASR_RTC.git'
+  platform : [win]
+
+ManipulatorCommonTest :
+  description : 'Manipulator Common Interface Tester RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/ManipulatorCommonTest.git'
+  platform : [win, osx, ubuntu]

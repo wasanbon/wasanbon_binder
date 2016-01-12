@@ -152,4 +152,16 @@ vrep_mcl_test :
   description : ""
   type : git
   url : 'https://github.com/sugarsweetrobotics/vrep_mcl_test'
-  platform : [osx10.10_xcode6]
+  platform : [osx, win, ubuntu]
+
+kinect_test:
+  description : "Demo for Kinect in Windows"
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/kinect_test'
+  platform : [win]
+
+asr_test:
+  description : "VSTONE Academic Scala Robot Test project"
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/asr_test'
+  platform : [win]
