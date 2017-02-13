@@ -139,7 +139,6 @@ AriaRTC :
   url : 'https://github.com/sugarsweetrobotics/AriaRTC.git'
   platform : [win, ubuntu]
 
-
 StarGazer :
   description : "Hagisonic's StarGazer sensor RT-Component. This uses ceiling marker and Infrared Camera. This can acquire, marker's ID, position of camera referring the marker."
   type : git
@@ -164,8 +163,8 @@ VS_ASR_RTC :
   url : 'https://github.com/sugarsweetrobotics/VS_ASR_RTC.git'
   platform : [win]
 
-ManipulatorCommonTest :
-  description : 'Manipulator Common Interface Tester RT-component'
+RealSense3D :
+  description : 'Intel RealSense3D RT-component'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/ManipulatorCommonTest.git'
-  platform : [win, osx, ubuntu]
+  url : 'https://github.com/sugarsweetrobotics/RealSense3D.git'
+  platform: [win]

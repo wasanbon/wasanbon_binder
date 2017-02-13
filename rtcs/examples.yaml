@@ -183,7 +183,6 @@ ARTKMarker :
   url : 'https://github.com/sugarsweetrobotics/ARTKMarker.git'
   platform : [win, ubuntu, osx]
 
-
 CameraCalibration :
   description : ''
   type : git
@@ -219,3 +218,28 @@ EndEffectorVelocityController:
   type : git
   url : 'https://github.com/sugarsweetrobotics/EndEffectorVelocityController'
   platform : [osx, win, ubuntu]
+
+RGBDCameraTester :
+  description : 'RGB-D Camera Data Tester'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/RGBDCameraTester.git'
+  platform : [win, ubuntu, osx]
+
+RGBDCameraImageSplitter:
+  description : 'RGB-D Camera Data to Img::TimedCameraImage and DepthImage'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/RGBDCameraImageSplitter.git'
+  platform : [win, ubuntu, osx]
+
+CommonImageToRTCImage:
+  description : 'Img::TimedCameraImage to RTC::CameraImage'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/CommonImageToRTCImage.git'
+  platform : [win, ubuntu, osx]
+
+ManipulatorCommonTest :
+  description : 'Manipulator Common Interface Tester RT-component'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/ManipulatorCommonTest.git'
+  platform : [win, osx, ubuntu]
+
