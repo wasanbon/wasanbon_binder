@@ -243,3 +243,8 @@ ManipulatorCommonTest :
   url : 'https://github.com/sugarsweetrobotics/ManipulatorCommonTest.git'
   platform : [win, osx, ubuntu]
 
+HumanFollower :
+  description : 'Human Follower for Mobile Robot Navigation'
+  type : git
+  url : 'https://github.com/sugarsweetrobotics/HumanFollower.git'
+  platform : [win, osx, ubuntu]
