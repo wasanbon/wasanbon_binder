@@ -71,15 +71,21 @@ ImageHough :
 TestIn_py : 
   description : 'Default Description'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/TestIn_py.git'
-  platform : osx10.9_xcode5
+  url : 'https://github.com/wasanbon/TestIn_py.git'
+  platform:
+    macos: master
+    ubuntu: master
+    windows: master
 
 # Added in 2014/5/25/11:44:3
 TestOut_py : 
   description : 'Default Description'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/TestOut_py.git'
-  platform : osx10.9_xcode5
+  url : 'https://github.com/wasanbon/TestOut_py.git'
+  platform:
+    macos: master
+    ubuntu: master
+    windows: master
 
 DoubleSeqLogger :
   description : 'DoubleSeq datatype logger'
@@ -92,28 +98,40 @@ TestOut_cpp :
   description : 'TestOut Component'
   type : git
   url : 'https://github.com/sugarsweetrobotics/TestOut_cpp.git'
-  platform : [osx, win, ubuntu]
+  platform:
+    macos: master
+    ubuntu: master
+    windows: master
 
 # Added in 2014/7/11/19:4:11
 TestIn_cpp : 
   description : 'TestIn Component'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/TestIn_cpp.git'
-  platform : [osx, win, ubuntu]
+  url : 'https://github.com/wasanbon/TestIn_cpp.git'
+  platform:
+    macos: master
+    ubuntu: master
+    windows: master
 
 # Added in 2014/7/14/13:19:16
 TestIn_java : 
   description : 'Test In Component'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/TestIn_java.git'
-  platform : [osx, win, ubuntu]
+  url : 'https://github.com/wasanbon/TestIn_java.git'
+  platform:
+    macos: master
+    ubuntu: master
+    windows: master
 
 # Added in 2014/7/14/13:19:36
 TestOut_java : 
-  description : 'ModuleDescription'
+  description : 'Test Out Component'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/TestOut_java.git'
-  platform : [osx, win, ubuntu]
+  url : 'https://github.com/wasanbon/TestOut_java.git'
+  platform:
+    macos: master
+    ubuntu: master
+    windows: master
 
 Mapper_MRPT :
   description : 'MRPT Mapper RT Component'
