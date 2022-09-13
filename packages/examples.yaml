@@ -65,22 +65,31 @@ spur_test :
 test_project01 : 
   description : 'Test Project for C++'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/test_project01.git'
-  platform : [osx, win, ubuntu]
+  url : 'https://github.com/wasanbon/test_project01.git'
+  platform:
+    macos: master
+    ubuntu: master
+    windows: master
 
 # Added in 2014/7/11/22:11:20
 test_project02 : 
   description : 'Test Project for Python'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/test_project02.git'
-  platform : [osx, win, ubuntu]
+  url : 'https://github.com/wasanbon/test_project02.git'
+  platform:
+    macos: master
+    ubuntu: master
+    windows: master
 
 # Added in 2014/7/14/14:3:8
 test_project03 : 
   description : 'Test Project for Java'
   type : git
-  url : 'https://github.com/sugarsweetrobotics/test_project03.git'
-  platform : [osx, ubuntu, win]
+  url : 'https://github.com/wasanbon/test_project03.git'
+  platform:
+    macos: master
+    ubuntu: master
+    windows: master
 
 # Added in 2014/7/17/11:43:10
 ardrone_test : 
