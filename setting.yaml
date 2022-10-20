@@ -12,3 +12,4 @@ repositories:
 child_binder:
   - https://github.com/ogata-lab/wasanbon_binder.git
   - https://github.com/ysuga/wasanbon_binder.git
+  - https://github.com/rsdlab/wasanbon_binder.git
